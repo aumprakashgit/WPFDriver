@@ -1,0 +1,9 @@
+﻿<Window x:Class="WPFDriver.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="WPF Automation Controller" Height="291.79" Width="647.287">
+    <Grid>
+        <Button Height="23" Margin="20,14,18,0" Name="btnStartAutomation" VerticalAlignment="Top" Click="btnStartAutomation_Click">Start Automation</Button>
+        <TextBox Margin="20,51,18,20" Name="txtLogs" />
+    </Grid>
+</Window>
